@@ -5,12 +5,12 @@ function indexdisplay() {
     let htmltag = "";
 
     const products = [
-        { name: "Crocs McDonald Limited Edition", price: "RM 199.99", image: "img/mcd.png", link: "/mcd.html" },
-        { name: "Crocs Batman Limited Edition", price: "RM 500.00", image: "img/batman.png", link: "/batman.html" },
-        { name: "Crocs Pac-Man Limited Edition", price: "RM 700.00", image: "img/pacman.png", link: "/pacman.html" },
-        { name: "Crocs Pikachu Limited Edition", price: "RM 2000.00", image: "img/pikachu.png", link: "/pikachu.html" },
-        { name: "Crocs Charizard Limited Edition", price: "RM 1500.00", image: "img/charizard.png", link: "/charizard.html" },
-        { name: "Crocs Mike Wazowski Limited Edition", price: "RM 1.00", image: "img/mike.png", link: "/mike.html" }
+        { name: "Crocs McDonald Limited Edition", price: "RM 199.99", image: "img/mcd.png", link: "mcd.html" },
+        { name: "Crocs Batman Limited Edition", price: "RM 500.00", image: "img/batman.png", link: "batman.html" },
+        { name: "Crocs Pac-Man Limited Edition", price: "RM 700.00", image: "img/pacman.png", link: "pacman.html" },
+        { name: "Crocs Pikachu Limited Edition", price: "RM 2000.00", image: "img/pikachu.png", link: "pikachu.html" },
+        { name: "Crocs Charizard Limited Edition", price: "RM 1500.00", image: "img/charizard.png", link: "charizard.html" },
+        { name: "Crocs Mike Wazowski Limited Edition", price: "RM 1.00", image: "img/mike.png", link: "mike.html" }
     ];
 
     products.forEach((product, i) => {
