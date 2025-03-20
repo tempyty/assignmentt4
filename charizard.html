@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="font-family: Sigmar, serif;">GATORS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Children</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <a class="nav-link position-relative" href="cart.html" style="margin: 10px; position: relative;">
+              <i class="fas fa-shopping-cart" style="font-size: 1.5rem; position: relative;">
+                  <span id="cartdisplay" class="badge rounded-pill bg-danger" style="font-size: 0.5rem; padding: 4px 5px; min-width: 12px; min-height: 12px; 
+                            line-height: 1; position: absolute; top: -5px; right: -9px;">0</span>
+              </i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="img\charizard.png" alt="..."></div>
+                <div class="col-md-6">
+                    <h1 class="display-5 fw-bolder">Crocs Charizard Limited Edition</h1>
+                    <div class="fs-5 mb-5">
+                        <span>RM 1500.00</span>
+                    </div>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+                    <div class="d-flex">
+                      <button class="btn btn-outline-dark flex-shrink-0 add-to-cart" type="button" data-name="Crocs Charizard Limited Edition" 
+                      data-price="1500.00" data-image="img/charizard.png">
+                        <i class="bi-cart-fill me-1"></i>Add to cart
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+      <footer class="text-center text-lg-start text-white" style="background-color: black">
+        <div class="container p-4 pb-0">
+            <div class="row">
+              <hr class="w-100 d-md-none">
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                <hr class="d-none d-md-block fixed-length-hr">
+                <p><a href="" id="links">Your Account</a></p>
+                <p><a href="" id="links">FAQ</a></p>
+                <p><a href="" id="links">Shipping Rates</a></p>
+                <p><a href="" id="links">Help</a></p>
+              </div>
+              <hr class="w-100 d-md-none">
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <hr class="d-none d-md-block fixed-length-hr">
+                <p><i class="fas fa-home mr-3"></i> Malaysia, Penang</p>
+                <p><i class="fas fa-envelope mr-3"></i> gator@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              </div>
+            </div>
+          <hr class="my-3">
+          <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7 col-lg-8 text-center text-md-start">
+                <p class="p-3 text-center text-light">© 2024 Company, Inc</p>
+              </div>
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
